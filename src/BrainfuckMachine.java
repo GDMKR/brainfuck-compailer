@@ -63,6 +63,9 @@ public class BrainfuckMachine {
             }
 
         }
+        else{
+            throw new IllegalArgumentException("The code was not compiled.");
+        }
     }
 
 }
